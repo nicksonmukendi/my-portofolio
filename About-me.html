@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="presentation content">
+    <meta name="author" content="By Nickson Mbuyi">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/About.css">
+    <title>About me</title>
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="./images/drc flag.webp" alt="Flag of Democratic Republic of Congo" width="100" height="100">
+                <div class="logo-text">
+                    <figcaption>DR Congo Flag <br><em>Kinshasa 243</em></figcaption>
+                    <p class="portfolio-title">Professional Portfolio - NM</p>
+                </div>
+            </div>
+            <nav aria-label="Main navigation">
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <i class="fas fa-bars"></i>
+                </button>        
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="./index.html" class="nav-link">Home</a></li>
+                    <li><a href="./About-me.html" class="nav-link">About Me</a></li>
+                    <li><a href="./skills.html" class="nav-link">Skills</a></li>
+                    <li><a href="./projects.html" class="nav-link">Projects</a></li>
+                    <li><a href="./contacts.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="hero">
+            <h1>About me</h1>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p>A dynamic and adaptable professional, I am passionate about continuous learning and collaborating within diverse teams. With several years of experience in various fields, I seek to bring my problem-solving and project management skills to effectively contribute to the organization's objectives. I am a motivated and results-oriented individual, with a strong ability to work under pressure. My expertise in data analysis and my creativity allow me to propose innovative solutions and improve processes within the company. As a committed professional, I strive to bring real added value to my projects thanks to my versatility and my ability to quickly adapt to new situations. My goal is to foster a positive and collaborative work environment while highlighting my technical and interpersonal skills.</p>
+                </div>
+                <a href="index.html" class="btn">Get in Touch</a>
+            </div>
+        </section>
+
+        <!-- Personal presentation -->
+        <section class="personal-section">
+            <h2>Profile</h2>
+            <div class="personal-content">
+                <div class="personal-text">
+                    <h3>ID</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, repellat possimus. Consectetur velit illo facere voluptatem praesentium, culpa, voluptas laudantium, rerum quidem maxime libero aspernatur deleniti quaerat nemo earum delectus. Dignissimos, odit vel, assumenda suscipit architecto dolor molestias placeat explicabo, impedit maiores repellendus sint excepturi mollitia atque repudiandae omnis accusantium tenetur possimus aliquam aut vero quisquam dolorum. Ratione, eveniet architecto! Cupiditate modi vitae error id a qui vel ut dolores aperiam suscipit maxime quasi quaerat perferendis omnis impedit autem, placeat tenetur architecto deleniti. Pariatur nam, corporis eius nobis veritatis porro? Nemo natus fugit autem inventore sit, ut veniam similique recusandae quis aspernatur architecto voluptates sunt totam et vitae amet nostrum sed saepe rerum! Consequuntur, architecto tempore magni accusantium qui iste. Eveniet sequi inventore nisi, ut rem saepe expedita vero iusto et officia quae, aperiam enim blanditiis mollitia consectetur ex reprehenderit sapiente error asperiores? Est dicta consequatur consectetur dolorem beatae sapiente.</p>
+                </div>
+                
+                <div class="skills-section">
+                    <div class="skills"> 
+                        <h3>Computer Skills</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus vel quaerat, ipsum adipisci, aspernatur maxime molestias, porro explicabo nesciunt totam ratione! Aliquam non fugit fugiat consectetur quas ea ducimus id. Nemo illo sed, totam alias eos minus eveniet qui sapiente. Pariatur, accusantium ab. Sapiente voluptatem tempora, cumque, quam maxime at quos neque ratione qui ea eveniet enim hic, officiis eum?</p>
+                    </div>
+                    
+                    <div class="professional">
+                        <div class="professional-experience">
+                            <h3>Professional Experience</h3>
+                            <div class="past-jobs">
+                                <p>Society name: <span id="year">[Year]</span></p>
+                                <p>Duty name: <span id="duty">[Position]</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- display current year and last update modification -->
+        <div class="footer-bottom">
+            <p>&copy; <span id="currentyear"></span> Designed by Nickson Mbuyi. All rights reserved | Portfolio</p>
+            <p>Last updated: <span id="lastupdated"></span></p>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for current year and last modified date
+        document.getElementById('currentyear').textContent = new Date().getFullYear();
+        document.getElementById('lastupdated').textContent = document.lastModified;
+        
+        // JavaScript for mobile navigation toggle
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+        
+        hamburger.addEventListener('click', () => {
+            const isExpanded = hamburger.getAttribute('aria-expanded') === 'true';
+            hamburger.setAttribute('aria-expanded', !isExpanded);
+            navLinks.classList.toggle('show');
+        });
+    </script>
+</body>
+</html>

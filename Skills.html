@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Showcase of professional skills and expertise in web development, programming, and digital technologies">
+    <meta name="author" content="Nickson Mbuyi">
+    <meta name="keywords" content="web development, programming skills, technical expertise, frontend, backend, fullstack">
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles/skills.css">
+    
+    <title>Skills & Expertise | Nickson Mbuyi</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Header & Navigation -->
+    <header class="main-header">
+        <div class="container header-container">
+            <div class="logo">
+                <img src="images/drc-flag.webp" 
+                     alt="Flag of Democratic Republic of Congo" 
+                     width="80" 
+                     height="80"
+                     loading="lazy">
+                <div class="logo-text">
+                    <span class="country-flag">DR Congo Flag</span>
+                    <span class="location"><em>Kinshasa 243</em></span>
+                    <p class="portfolio-title">Professional Portfolio</p>
+                </div>
+            </div>
+            
+            <nav aria-label="Main navigation">
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>        
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="./index.html" class="nav-link"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="./about-me.html" class="nav-link"><i class="fas fa-user"></i> About</a></li>
+                    <li><a href="./skills.html" class="nav-link active"><i class="fas fa-code"></i> Skills</a></li>
+                    <li><a href="./projects.html" class="nav-link"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                    <li><a href="./contacts.html" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="skills-hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="title-gradient">Skills & Expertise</span>
+                        <span class="title-sub">Technical Proficiency & Professional Competencies</span>
+                    </h1>
+                    <p class="hero-description">
+                        A comprehensive overview of my technical skills, programming languages, 
+                        frameworks, and professional competencies developed through years of experience 
+                        and continuous learning.
+                    </p>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number" data-count="5">0</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number" data-count="25">0</span>
+                            <span class="stat-label">Technologies</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number" data-count="50">0</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Categories -->
+        <section class="skills-categories">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Technical Skills Overview</h2>
+                    <p>Click on any category to explore detailed skills and proficiency levels</p>
+                </div>
+                
+                <!-- Skills Navigation Tabs -->
+                <div class="skills-tabs">
+                    <button class="tab-btn active" data-tab="frontend">
+                        <i class="fas fa-paint-brush"></i>
+                        Frontend Development
+                    </button>
+                    <button class="tab-btn" data-tab="backend">
+                        <i class="fas fa-server"></i>
+                        Backend Development
+                    </button>
+                    <button class="tab-btn" data-tab="tools">
+                        <i class="fas fa-tools"></i>
+                        Development Tools
+                    </button>
+                    <button class="tab-btn" data-tab="soft">
+                        <i class="fas fa-users"></i>
+                        Soft Skills
+                    </button>
+                </div>
+
+                <!-- Skills Content -->
+                <div class="skills-content">
+                    <!-- Frontend Skills -->
+                    <div class="skills-grid active" id="frontend-tab">
+                        <!-- HTML5 -->
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon">
+                                    <i class="fab fa-html5"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h3>HTML5</h3>
+                                    <span class="skill-level">Expert</span>
+                                </div>
+                            </div>
+                            <p class="skill-description">
+                                Semantic HTML, Accessibility (WCAG), SEO optimization, Modern HTML5 APIs
+                            </p>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 95%">
+                                    <span class="progress-text">95%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- CSS3 -->
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon">
+                                    <i class="fab fa-css3-alt"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h3>CSS3</h3>
+                                    <span class="skill-level">Expert</span>
+                                </div>
+                            </div>
+                            <p class="skill-description">
+                                Flexbox, Grid, Animations, Responsive Design, CSS Variables, Modern Layouts
+                            </p>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 92%">
+                                    <span class="progress-text">92%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- JavaScript -->
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon">
+                                    <i class="fab fa-js"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h3>JavaScript</h3>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                            </div>
+                            <p class="skill-description">
+                                ES6+, DOM Manipulation, Async Programming, APIs, Modern JavaScript Patterns
+                            </p>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 88%">
+                                    <span class="progress-text">88%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- React -->
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon">
+                                    <i class="fab fa-react"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h3>React.js</h3>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                            </div>
+                            <p class="skill-description">
+                                Components, Hooks, Context API, Redux, Next.js, Performance Optimization
+                            </p>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 85%">
+                                    <span class="progress-text">85%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Vue.js -->
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon">
+                                    <i class="fab fa-vuejs"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h3>Vue.js</h3>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                            </div>
+                            <p class="skill-description">
+                                Vue 3 Composition API, Vuex, Vue Router, Vue CLI, Component Architecture
+                            </p>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 75%">
+                                    <span class="progress-text">75%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- TypeScript -->
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h3>TypeScript</h3>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                            </div>
+                            <p class="skill-description">
+                                Type System, Interfaces, Generics, TypeScript with React/Vue, Strict Mode
+                            </p>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 70%">
+                                    <span class="progress-text">70%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Backend Skills -->
+                    <div class="skills-grid" id="backend-tab">
+                        <!-- Node.js -->
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon">
+                                    <i class="fab fa-node-js"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h3>Node.js</h3>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                            </div>
+                            <p class="skill-description">
+                                Express.js, REST APIs, Authentication, Middleware, File Handling, NPM
+                            </p>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 85%">
+                                    <span class="progress-text">85%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Python -->
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon">
+                                    <i class="fab fa-python"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h3>Python</h3>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                            </div>
+                            <p class="skill-description">
+                                Django, Flask, Data Analysis, Automation, Scripting, Web Scraping
+                            </p>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 78%">
+                                    <span class="progress-text">78%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Database -->
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h3>Databases</h3>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                            </div>
+                            <p class="skill-description">
+                                MongoDB, PostgreSQL, MySQL, Redis, ORMs, Database Design, Optimization
+                            </p>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 82%">
+                                    <span class="progress-text">82%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- API Development -->
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon">
+                                    <i class="fas fa-network-wired"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h3>API Development</h3>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                            </div>
+                            <p class="skill-description">
+                                RESTful APIs, GraphQL, API Documentation, Authentication, Rate Limiting
+                            </p>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 88%">
+                                    <span class="progress-text">88%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Development Tools -->
+                    <div class="skills-grid" id="tools-tab">
+                        <!-- Git -->
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon">
+                                    <i class="fab fa-git-alt"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h3>Git & GitHub</h3>
+                                    <span class="skill-level">Expert</span>
+                                </div>
+                            </div>
+                            <p class="skill-description">
+                                Version Control, Branching Strategies, Pull Requests, CI/CD, Team Collaboration
+                            </p>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 90%">
+                                    <span class="progress-text">90%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Docker -->
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon">
+                                    <i class="fab fa-docker"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h3>Docker</h3>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                            </div>
+                            <p class="skill-description">
+                                Containerization, Docker Compose, Image Management, Multi-stage Builds
+                            </p>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 72%">
+                                    <span class="progress-text">72%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testing -->
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon">
+                                    <i class="fas fa-vial"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h3>Testing</h3>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                            </div>
+                            <p class="skill-description">
+                                Jest, React Testing Library, Cypress, Unit Testing, Integration Testing
+                            </p>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 75%">
+                                    <span class="progress-text">75%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Webpack -->
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon">
+                                    <i class="fas fa-cube"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h3>Build Tools</h3>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                            </div>
+                            <p class="skill-description">
+                                Webpack, Vite, Babel, ESLint, Prettier, Performance Optimization
+                            </p>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 70%">
+                                    <span class="progress-text">70%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Soft Skills -->
+                    <div class="skills-grid" id="soft-tab">
+                        <!-- Communication -->
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon">
+                                    <i class="fas fa-comments"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h3>Communication</h3>
+                                    <span class="skill-level">Expert</span>
+                                </div>
+                            </div>
+                            <p class="skill-description">
+                                Clear technical communication, client presentations, team collaboration, documentation
+                            </p>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 92%">
+                                    <span class="progress-text">92%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Problem Solving -->
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon">
+                                    <i class="fas fa-lightbulb"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h3>Problem Solving</h3>
+                                    <span class="skill-level">Expert</span>
+                                </div>
+                            </div>
+                            <p class="skill-description">
+                                Analytical thinking, debugging complex issues, algorithm design, optimization
+                            </p>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 90%">
+                                    <span class="progress-text">90%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project Management -->
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon">
+                                    <i class="fas fa-tasks"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h3>Project Management</h3>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                            </div>
+                            <p class="skill-description">
+                                Agile/Scrum, JIRA, Task Prioritization, Timeline Management, Risk Assessment
+                            </p>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 85%">
+                                    <span class="progress-text">85%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Team Leadership -->
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon">
+                                    <i class="fas fa-users-cog"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h3>Team Leadership</h3>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                            </div>
+                            <p class="skill-description">
+                                Mentoring, Code Reviews, Technical Guidance, Conflict Resolution, Team Building
+                            </p>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 82%">
+                                    <span class="progress-text">82%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Level Summary -->
+        <section class="skills-summary">
+            <div class="container">
+                <div class="summary-content">
+                    <h2>Skills Proficiency Summary</h2>
+                    <p class="summary-description">
+                        Based on years of hands-on experience, continuous learning, and project implementation.
+                        Regularly updated to reflect current industry standards and personal growth.
+                    </p>
+                    
+                    <div class="proficiency-levels">
+                        <div class="level-card">
+                            <div class="level-header">
+                                <span class="level-number">90-100%</span>
+                                <span class="level-label">Expert</span>
+                            </div>
+                            <p>Mastery level with extensive production experience and ability to mentor others</p>
+                        </div>
+                        
+                        <div class="level-card">
+                            <div class="level-header">
+                                <span class="level-number">80-89%</span>
+                                <span class="level-label">Advanced</span>
+                            </div>
+                            <p>Strong practical experience, comfortable with complex implementations</p>
+                        </div>
+                        
+                        <div class="level-card">
+                            <div class="level-header">
+                                <span class="level-number">70-79%</span>
+                                <span class="level-label">Intermediate</span>
+                            </div>
+                            <p>Solid working knowledge, capable of independent work with occasional guidance</p>
+                        </div>
+                        
+                        <div class="level-card">
+                            <div class="level-header">
+                                <span class="level-number">60-69%</span>
+                                <span class="level-label">Beginner</span>
+                            </div>
+                            <p>Learning phase, familiar with basics and working on skill development</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <img src="./images/drc-flag.webp" alt="DR Congo Flag" width="50" height="50" loading="lazy">
+                        <div>
+                            <h3>Nickson Mbuyi</h3>
+                            <p>Professional Web Developer</p>
+                        </div>
+                    </div>
+                    <p class="footer-description">
+                        Continuously evolving skills to build better digital experiences and innovative solutions.
+                    </p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./skills.html">Skills</a></li>
+                        <li><a href="./projects.html">Projects</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h4>Connect With Me</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="Twitter Profile"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Nickson Mbuyi. All rights reserved.</p>
+                <p>Portfolio v2.0 | Last updated: <span id="last-updated"></span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Set current year and last updated date
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+        document.getElementById('last-updated').textContent = new Date().toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        });
+
+        // Mobile navigation toggle
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+
+        hamburger.addEventListener('click', () => {
+            const isExpanded = hamburger.getAttribute('aria-expanded') === 'true';
+            hamburger.setAttribute('aria-expanded', !isExpanded);
+            navLinks.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!navLinks.contains(e.target) && !hamburger.contains(e.target)) {
+                navLinks.classList.remove('active');
+                hamburger.setAttribute('aria-expanded', 'false');
+            }
+        });
+
+        // Skills tabs functionality
+        const tabBtns = document.querySelectorAll('.tab-btn');
+        const skillGrids = document.querySelectorAll('.skills-grid');
+
+        tabBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons and grids
+                tabBtns.forEach(b => b.classList.remove('active'));
+                skillGrids.forEach(grid => grid.classList.remove('active'));
+                
+                // Add active class to clicked button
+                btn.classList.add('active');
+                
+                // Show corresponding grid
+                const tabId = btn.getAttribute('data-tab');
+                const targetGrid = document.getElementById(`${tabId}-tab`);
+                if (targetGrid) {
+                    targetGrid.classList.add('active');
+                }
+            });
+        });
+
+        // Animated counter for stats
+        const statNumbers = document.querySelectorAll('.stat-number');
+        const observerOptions = {
+            threshold: 0.5
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const statNumber = entry.target;
+                    const target = parseInt(statNumber.getAttribute('data-count'));
+                    const duration = 2000; // 2 seconds
+                    const increment = target / (duration / 16); // 60fps
+                    let current = 0;
+
+                    const timer = setInterval(() => {
+                        current += increment;
+                        if (current >= target) {
+                            clearInterval(timer);
+                            current = target;
+                        }
+                        statNumber.textContent = Math.floor(current);
+                    }, 16);
+                    
+                    observer.unobserve(statNumber);
+                }
+            });
+        }, observerOptions);
+
+        statNumbers.forEach(stat => observer.observe(stat));
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
